@@ -1,4 +1,4 @@
-Project3-MileStone3
+WeatherBuddy-MileStone3
 
 -Wei Miao
 
