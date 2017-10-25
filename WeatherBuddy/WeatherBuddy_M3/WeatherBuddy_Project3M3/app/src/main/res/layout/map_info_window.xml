@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_city"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_country"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_main"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"
+                android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_detail"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"
+                android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/currentTemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_temp"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_temp_value"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"
+                android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/maxTemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_temp_max"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_temp_maxV"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"
+                android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/minTemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_temp_min"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_temp_minV"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"
+                android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/windSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_windSpeed"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_windSpeedV"
+                android:textStyle="normal|bold"
+                android:textSize="16sp"
+                android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        </TableRow>
+
+
+</TableLayout>
+

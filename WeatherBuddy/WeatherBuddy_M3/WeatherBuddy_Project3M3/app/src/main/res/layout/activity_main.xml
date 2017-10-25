@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mad.weimiao.weatherbuddy.MainActivity"
+    android:background="@drawable/clear_sky">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/map"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/zip"
+        android:id="@+id/zipEditText"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:maxLines="1" />
+
+    <ImageButton
+        android:text="@string/getWeatherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zipEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/getWeather"
+        android:onClick="forecast"
+        android:contentDescription="@string/imageButton"
+        android:background="@drawable/button_weather" />
+
+    <fragment
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:id="@+id/toolbar"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

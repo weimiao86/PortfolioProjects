@@ -1,2 +1,2 @@
-# PortfolioProjects
-Portfolio projects
+# Portfolio Projects
+Portfolio projects - Wei Miao

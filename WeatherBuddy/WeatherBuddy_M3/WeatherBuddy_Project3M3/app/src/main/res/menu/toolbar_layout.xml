@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mad.weimiao.weatherbuddy;">
+
+    <item android:title="@string/favorite"
+        android:id="@+id/favorite"
+        android:icon="@drawable/favicon"
+        app:showAsAction="always"/>
+    <item android:id="@+id/unit"
+        android:title="@string/unit"
+        app:showAsAction="always"
+        android:icon="@drawable/fahrenheit" />
+    <item android:title="@string/saved"
+        android:id = "@+id/saved"
+        app:showAsAction="ifRoom" />
+    <item android:title="@string/setting"
+        android:id="@+id/setting"
+        app:showAsAction="ifRoom"/>
+    <item android:title="@string/help"
+        android:id="@+id/help"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/help" />
+</menu>
