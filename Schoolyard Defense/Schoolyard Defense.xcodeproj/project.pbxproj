@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C028F3321DD8D86100BAD54E /* cheering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C028F3311DD8D86100BAD54E /* cheering.mp3 */; };
+		C05C899E1DC5103900590426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05C899D1DC5103900590426 /* AppDelegate.swift */; };
+		C05C89A01DC5103900590426 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05C899F1DC5103900590426 /* MainController.swift */; };
+		C05C89A31DC5103900590426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05C89A11DC5103900590426 /* Main.storyboard */; };
+		C05C89A51DC5103900590426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05C89A41DC5103900590426 /* Assets.xcassets */; };
+		C05C89A81DC5103900590426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05C89A61DC5103900590426 /* LaunchScreen.storyboard */; };
+		C05C89C21DC534DF00590426 /* WordsFilling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05C89C11DC534DF00590426 /* WordsFilling.swift */; };
+		C05C89C41DC5354300590426 /* MathCalculating.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05C89C31DC5354300590426 /* MathCalculating.swift */; };
+		C0E38F271DD81E2000CBBBD1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E38F261DD81E2000CBBBD1 /* AVFoundation.framework */; };
+		C0E38F2F1DD82A1400CBBBD1 /* button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0E38F2E1DD82A1400CBBBD1 /* button.mp3 */; };
+		C0E38F311DD82A2200CBBBD1 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0E38F301DD82A2200CBBBD1 /* gameover.mp3 */; };
+		C0E38F331DD82A2B00CBBBD1 /* maoxiandao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0E38F321DD82A2B00CBBBD1 /* maoxiandao.mp3 */; };
+		C0E38F351DD82CAD00CBBBD1 /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0E38F341DD82CAD00CBBBD1 /* cannon.mp3 */; };
+		C0E38F371DD82DF900CBBBD1 /* cowmoo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0E38F361DD82DF900CBBBD1 /* cowmoo.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C028F3311DD8D86100BAD54E /* cheering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheering.mp3; sourceTree = "<group>"; };
+		C05C899A1DC5103900590426 /* Schoolyard Defense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Schoolyard Defense.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05C899D1DC5103900590426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C05C899F1DC5103900590426 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		C05C89A21DC5103900590426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C05C89A41DC5103900590426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C05C89A71DC5103900590426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C05C89A91DC5103900590426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05C89C11DC534DF00590426 /* WordsFilling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsFilling.swift; sourceTree = "<group>"; };
+		C05C89C31DC5354300590426 /* MathCalculating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathCalculating.swift; sourceTree = "<group>"; };
+		C0E38F261DD81E2000CBBBD1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C0E38F2E1DD82A1400CBBBD1 /* button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = button.mp3; path = ../button.mp3; sourceTree = "<group>"; };
+		C0E38F301DD82A2200CBBBD1 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gameover.mp3; path = ../gameover.mp3; sourceTree = "<group>"; };
+		C0E38F321DD82A2B00CBBBD1 /* maoxiandao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = maoxiandao.mp3; path = ../maoxiandao.mp3; sourceTree = "<group>"; };
+		C0E38F341DD82CAD00CBBBD1 /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cannon.mp3; path = ../cannon.mp3; sourceTree = "<group>"; };
+		C0E38F361DD82DF900CBBBD1 /* cowmoo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cowmoo.mp3; path = ../cowmoo.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C05C89971DC5103900590426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E38F271DD81E2000CBBBD1 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C05C89911DC5103900590426 = {
+			isa = PBXGroup;
+			children = (
+				C0E38F261DD81E2000CBBBD1 /* AVFoundation.framework */,
+				C05C899C1DC5103900590426 /* Schoolyard Defense */,
+				C05C899B1DC5103900590426 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C05C899B1DC5103900590426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C05C899A1DC5103900590426 /* Schoolyard Defense.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C05C899C1DC5103900590426 /* Schoolyard Defense */ = {
+			isa = PBXGroup;
+			children = (
+				C05C899D1DC5103900590426 /* AppDelegate.swift */,
+				C05C899F1DC5103900590426 /* MainController.swift */,
+				C05C89A11DC5103900590426 /* Main.storyboard */,
+				C05C89A41DC5103900590426 /* Assets.xcassets */,
+				C05C89A61DC5103900590426 /* LaunchScreen.storyboard */,
+				C05C89A91DC5103900590426 /* Info.plist */,
+				C05C89C11DC534DF00590426 /* WordsFilling.swift */,
+				C05C89C31DC5354300590426 /* MathCalculating.swift */,
+				C0E38F2E1DD82A1400CBBBD1 /* button.mp3 */,
+				C0E38F301DD82A2200CBBBD1 /* gameover.mp3 */,
+				C0E38F321DD82A2B00CBBBD1 /* maoxiandao.mp3 */,
+				C028F3311DD8D86100BAD54E /* cheering.mp3 */,
+				C0E38F361DD82DF900CBBBD1 /* cowmoo.mp3 */,
+				C0E38F341DD82CAD00CBBBD1 /* cannon.mp3 */,
+			);
+			name = "Schoolyard Defense";
+			path = "Schoolyard Defence";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C05C89991DC5103900590426 /* Schoolyard Defense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05C89AC1DC5103900590426 /* Build configuration list for PBXNativeTarget "Schoolyard Defense" */;
+			buildPhases = (
+				C05C89961DC5103900590426 /* Sources */,
+				C05C89971DC5103900590426 /* Frameworks */,
+				C05C89981DC5103900590426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Schoolyard Defense";
+			productName = "Schoolyard Defence";
+			productReference = C05C899A1DC5103900590426 /* Schoolyard Defense.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C05C89921DC5103900590426 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = wei;
+				TargetAttributes = {
+					C05C89991DC5103900590426 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y3K3VUH8FU;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = C05C89951DC5103900590426 /* Build configuration list for PBXProject "Schoolyard Defense" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C05C89911DC5103900590426;
+			productRefGroup = C05C899B1DC5103900590426 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C05C89991DC5103900590426 /* Schoolyard Defense */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C05C89981DC5103900590426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E38F351DD82CAD00CBBBD1 /* cannon.mp3 in Resources */,
+				C0E38F2F1DD82A1400CBBBD1 /* button.mp3 in Resources */,
+				C0E38F331DD82A2B00CBBBD1 /* maoxiandao.mp3 in Resources */,
+				C0E38F311DD82A2200CBBBD1 /* gameover.mp3 in Resources */,
+				C0E38F371DD82DF900CBBBD1 /* cowmoo.mp3 in Resources */,
+				C05C89A81DC5103900590426 /* LaunchScreen.storyboard in Resources */,
+				C05C89A51DC5103900590426 /* Assets.xcassets in Resources */,
+				C05C89A31DC5103900590426 /* Main.storyboard in Resources */,
+				C028F3321DD8D86100BAD54E /* cheering.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C05C89961DC5103900590426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05C89A01DC5103900590426 /* MainController.swift in Sources */,
+				C05C89C41DC5354300590426 /* MathCalculating.swift in Sources */,
+				C05C899E1DC5103900590426 /* AppDelegate.swift in Sources */,
+				C05C89C21DC534DF00590426 /* WordsFilling.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C05C89A11DC5103900590426 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05C89A21DC5103900590426 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C05C89A61DC5103900590426 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05C89A71DC5103900590426 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05C89AA1DC5103900590426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C05C89AB1DC5103900590426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C05C89AD1DC5103900590426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y3K3VUH8FU;
+				INFOPLIST_FILE = "Schoolyard Defence/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weimiao.Schoolyard-Defense";
+				PRODUCT_NAME = "Schoolyard Defense";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C05C89AE1DC5103900590426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y3K3VUH8FU;
+				INFOPLIST_FILE = "Schoolyard Defence/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weimiao.Schoolyard-Defense";
+				PRODUCT_NAME = "Schoolyard Defense";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05C89951DC5103900590426 /* Build configuration list for PBXProject "Schoolyard Defense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05C89AA1DC5103900590426 /* Debug */,
+				C05C89AB1DC5103900590426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05C89AC1DC5103900590426 /* Build configuration list for PBXNativeTarget "Schoolyard Defense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05C89AD1DC5103900590426 /* Debug */,
+				C05C89AE1DC5103900590426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C05C89921DC5103900590426 /* Project object */;
+}
